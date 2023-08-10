@@ -11,7 +11,6 @@ declare module "@mui/material/styles" {
 const MyTypography = (props: any) => (
   <Typography variant="myVariant" {...props} />
 );
-console.log("Mursalin");
 
 export const Header = () => {
   const theme = createTheme({
@@ -23,7 +22,6 @@ export const Header = () => {
     },
   });
 
-
   return (
     <ThemeProvider theme={theme}>
       <Box
@@ -34,9 +32,8 @@ export const Header = () => {
         margin:"20px",
           height: "5vh", 
           minWidth:"40%",
-          minheight:"50%",
+          minheight:"30%",
         }}
-        
       >
         <MyTypography variant="myVariant">Expense Tracker</MyTypography>
       </Box>

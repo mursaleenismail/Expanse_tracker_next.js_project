@@ -27,8 +27,6 @@ export default function RootLayout({
       <body>
         <Providers>{children}</Providers>
       </body>
-
-      {/* <body className={inter.className}>{children}</body> */}
     </html>
   )
 }

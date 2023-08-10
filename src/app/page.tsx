@@ -19,9 +19,9 @@ const useStyles = makeStyles({
     alignItems: 'center',
     justifyContent: 'center',
     minHeight: '100vh',
-    padding: '-5px',
-    paddingTop:'28px',
-    paddingBottom:'28px'
+    padding: '-8px',
+    paddingTop:'10px',
+    paddingBottom:'18px'
   },
   
   },
